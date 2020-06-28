@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dimen_four"
+    app:cardCornerRadius="@dimen/dimen_ten"
+    app:cardElevation="@dimen/dimen_four">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_two"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="@dimen/dimen_eight"
+            android:layout_marginLeft="@dimen/dimen_eight"
+            android:layout_marginTop="@dimen/dimen_eight"
+            android:layout_marginEnd="@dimen/dimen_eight"
+            android:layout_marginRight="@dimen/dimen_eight">
+
+            <TextView
+                android:id="@+id/id_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_five"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/dimen_eighteen_sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen_five">
+
+                <TextView
+                    android:id="@+id/id_description"
+                    android:layout_width="@dimen/dimen_zero"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/two"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/dimen_sixteen_sp" />
+
+                <FrameLayout
+                    android:layout_width="@dimen/dimen_zero"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/one">
+
+                    <ImageView
+                        android:id="@+id/id_image"
+                        android:layout_width="@dimen/dimen_hundred"
+                        android:layout_height="@dimen/dimen_hundred"
+                        android:padding="@dimen/dimen_ten"
+                        android:layout_gravity="center" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
