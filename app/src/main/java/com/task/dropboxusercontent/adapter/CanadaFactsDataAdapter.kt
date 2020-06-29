@@ -36,15 +36,10 @@ class CanadaFactsDataAdapter(private val context: Context) :
         var description = list[position].description
         var imageHref = list[position].imageHref
 
-        if (title.isNullOrEmpty() && description.isNullOrEmpty()) {
-            holder.cardView.visibility = View.INVISIBLE //or GONE if you do not want to keep its space
-            holder.title.text = ""
-        } else {
             holder.cardView.visibility = View.VISIBLE
             holder.title.text = title
             holder.description.text = description
             Glide.with(context).asDrawable().load(imageHref).into(holder.image)
-        }
     }
 
     class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
