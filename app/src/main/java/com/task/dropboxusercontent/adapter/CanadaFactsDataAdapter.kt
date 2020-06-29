@@ -32,15 +32,26 @@ class CanadaFactsDataAdapter(private val context: Context) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.title.text = list[position].title
-        holder.description.text = list[position].description
-        Glide.with(context).asDrawable().load(list[position].imageHref).into(holder.image)
+        var title = list[position].title
+        var description = list[position].description
+        var imageHref = list[position].imageHref
+
+        if (title.isNullOrEmpty() && description.isNullOrEmpty()) {
+            holder.cardView.visibility = View.GONE //or GONE if you do not want to keep its space
+            holder.title.text = ""
+        } else {
+            holder.cardView.visibility = View.VISIBLE
+            holder.title.text = title
+            holder.description.text = description
+            Glide.with(context).asDrawable().load(imageHref).into(holder.image)
+        }
     }
 
     class ViewHolder(v: View) : RecyclerView.ViewHolder(v) {
         val title = v.id_title!!
         val description = v.id_description!!
         val image = v.id_image!!
+        val cardView = v.cardView_list!!
     }
 
 }
