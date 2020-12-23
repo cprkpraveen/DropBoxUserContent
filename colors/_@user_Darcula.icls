@@ -3,29 +3,30 @@
     <property name="created">2019-10-13T14:34:59</property>
     <property name="ide">AndroidStudio</property>
     <property name="ideVersion">3.5.1.0</property>
-    <property name="modified">2020-08-27T09:57:16</property>
+    <property name="modified">2020-12-23T12:14:52</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <colors>
-    <option name="FILESTATUS_ADDED" value="859900" />
+    <option name="FILESTATUS_ADDED" value="49d0c5" />
     <option name="FILESTATUS_COPIED" value="2aa198" />
-    <option name="FILESTATUS_DELETED" value="b58900" />
-    <option name="FILESTATUS_HIJACKED" value="d33682" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="b58900" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="b58900" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="cb4b16" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="cb4b16" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="cb4b16" />
-    <option name="FILESTATUS_MERGED" value="6c71c4" />
-    <option name="FILESTATUS_MODIFIED" value="2aa198" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="268bd2" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="268bd2" />
-    <option name="FILESTATUS_OBSOLETE" value="b58900" />
+    <option name="FILESTATUS_DELETED" value="de3d3b" />
+    <option name="FILESTATUS_HIJACKED" value="2aa298" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="de3d3b" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="93a1a1" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d6438a" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d6438a" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d6438a" />
+    <option name="FILESTATUS_MERGED" value="e0af02" />
+    <option name="FILESTATUS_MODIFIED" value="6fbef6" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2" />
+    <option name="FILESTATUS_OBSOLETE" value="" />
     <option name="FILESTATUS_RENAMED" value="268bd2" />
-    <option name="FILESTATUS_SWITCHED" value="268bd2" />
-    <option name="FILESTATUS_UNKNOWN" value="d33682" />
-    <option name="FILESTATUS_addedOutside" value="d33682" />
-    <option name="FILESTATUS_changelistConflict" value="cb4b16" />
-    <option name="FILESTATUS_modifiedOutside" value="2aa198" />
+    <option name="FILESTATUS_SUPPRESSED" value="403f53" />
+    <option name="FILESTATUS_SWITCHED" value="6fbef6" />
+    <option name="FILESTATUS_UNKNOWN" value="4876d6" />
+    <option name="FILESTATUS_addedOutside" value="4876d6" />
+    <option name="FILESTATUS_changelistConflict" value="d6438a" />
+    <option name="FILESTATUS_modifiedOutside" value="6fbef6" />
   </colors>
 </scheme>
